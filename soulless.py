@@ -1,7 +1,10 @@
+# soulless.py by @johanxq4
+# After u added ur token u can start it with !start command
+
 import discord
 from discord.ext import commands
 
-TOKEN = "MTQwOTYxNTE0MTA1NzU5MzU1Ng.GyZHln.8itXnpwFtfKIhyRfeYWwiuUTWIuR8Jg0ZV0_BY"
+TOKEN = "Ur Token Here" # Add Ur Token Here
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -21,6 +24,4 @@ async def start(ctx):
         channel = await guild.create_text_channel(f"server-cooked-{i+1}")
         await channel.send("@everyone this server is cooked :skull: by @johanxq4")
 
-    
 bot.run(TOKEN)
-
