@@ -1,4 +1,4 @@
-# soulless.py by @johanxq4
+# soulless.py by @zeakhy
 # After u added ur token u can start it with !start command
 
 import discord
